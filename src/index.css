@@ -49,14 +49,16 @@
   }
 
   .home__text {
-    margin-inline: auto; /* margin left and righ: auto */
+    margin-inline: auto;
+    /* margin left and righ: auto */
   }
 
   .home__img-wrapper {
     position: relative;
     transform: initial;
     right: initial;
-    margin-inline: auto; /* margin left and righ: auto */
+    margin-inline: auto;
+    /* margin left and righ: auto */
     margin-top: 140px;
   }
 
@@ -160,14 +162,19 @@
   .footer__copyright:last-child {
     justify-self: center;
   }
+
+  .home__banner>img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .iframe{
+  .iframe {
     justify-content: center;
     height: 0px;
     width: 0px;
   }
+
   .header {
     padding: 24px 12px;
   }
@@ -242,6 +249,10 @@
   .portfolio__list-item::before {
     bottom: -8px;
   }
+
+  .home__banner>img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -258,7 +269,8 @@
   }
 
   .resume__content {
-    padding-inline: 24px 30px; /* padding left: 24px | padding right: 30px */
+    padding-inline: 24px 30px;
+    /* padding left: 24px | padding right: 30px */
   }
 
   .resume__date-title {
@@ -266,7 +278,8 @@
     align-items: flex-start;
     row-gap: 4px;
   }
-  .iframe{
+
+  .iframe {
     justify-content: center;
     margin-top: 5px;
     margin-left: 80px;
@@ -275,10 +288,12 @@
     transform: scale(1.9);
     font-size: 10px;
   }
-  .home__banner{
+
+  .home__banner {
     background-image: url("./assets/bg3.jpeg");
     background-size: cover;
   }
+
   .home__banner {
     padding-bottom: 100%;
     border-radius: 50%;
@@ -287,14 +302,19 @@
     bottom: 100px;
     z-index: 1;
   }
+
+  .home__banner>img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 350px) {
-  .iframe{
+  .iframe {
     justify-content: center;
     height: 500px;
     width: 500px;
   }
+
   .nav__data {
     padding: 80px 0 0 90px;
   }
@@ -328,7 +348,8 @@
 
   .skills__titles,
   .skills__description {
-    padding-inline: 16px; /* padding left and right: 16px */
+    padding-inline: 16px;
+    /* padding left and right: 16px */
   }
 
   .portfolio__img {
@@ -340,10 +361,15 @@
   }
 
   .resume__content {
-    padding-inline: 18px 20px; /* padding left: 18px | padding right: 20px */
+    padding-inline: 18px 20px;
+    /* padding left: 18px | padding right: 20px */
   }
 
   .testimonial__img {
     height: 140px;
+  }
+
+  .home__banner>img {
+    display: none;
   }
 }
