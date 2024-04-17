@@ -5,7 +5,7 @@ import shapeTwo from "../../assets/shape-2.png";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import "./home.css";
-import CV from "../../assets/KeshavDayal_InternshalaResume (5).pdf";
+import CV from "../../assets/RESUME-1.pdf";
 import Image from "../../assets/img2005.jpeg";
 
 const Home = () => {
