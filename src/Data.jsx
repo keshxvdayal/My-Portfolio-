@@ -180,7 +180,7 @@ export const projects = [
   },
     {
     id: 8,
-    img: Project10,
+    img: project10,
     category: "Web Development",
     title: "E-Commerce Website",
     description: "I Created an E-Commerce Website for a company name Satej Innovations",
