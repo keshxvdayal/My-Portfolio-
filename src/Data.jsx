@@ -6,6 +6,7 @@ import Project6 from "./assets/Image-editor-pro.png";
 import Project7 from "./assets/Enactus.png";
 import Project8 from "./assets/food-company.png";
 import Project9 from "./assets/Blog-page.png";
+import project10 from "./assets/satej.png";
 
 export const links = [
   {
@@ -176,5 +177,13 @@ export const projects = [
     title: "BLOG PAGE USING CRUD",
     description: "I Created a Blog page Content Management System",
     links: "https://enactusmsi-blog.vercel.app/",
+  },
+    {
+    id: 8,
+    img: Project10,
+    category: "Web Development",
+    title: "E-Commerce Website",
+    description: "I Created an E-Commerce Website for a company name Satej Innovations",
+    links: "https://satejinnovations.com/",
   },
 ];
