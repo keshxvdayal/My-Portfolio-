@@ -8,7 +8,7 @@ const Items = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((projectItem) => {
-        const { id, img, category, title, description, links } = projectItem;
+        const { id, img, category, title, description, links, timeline, github } = projectItem;
 
         return (
           <motion.div
@@ -21,15 +21,23 @@ const Items = ({ projectItems }) => {
             key={id}
           >
             <div className="portfolio__img-wrapper">
+            <a href={links} className="link">
               <img src={img} alt="" className="portfolio__img" />
+              </a>
             </div>
 
             <span className="portfolio__category text-cs">{category}</span>
             <h3 className="portfolio__title">{title}</h3>
             <p className="portfolio__description">{description}</p>
+            <h5 className="portfolio__category">TimeLine</h5>
+            <p className="portfolio__timeline">{timeline}</p>
+            <h5 className="portfolio__category">Github</h5>
+            <a href={github} className="link">
+            <p className="portfolio__description">{github}</p>
+            </a>
 
             <a href={links} className="link">
-              Learn more
+              Live Preview
               <FaArrowRight className="link__icon" href={links} />
             </a>
 
