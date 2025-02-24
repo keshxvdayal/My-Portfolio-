@@ -13,7 +13,7 @@ import "swiper/css"
 import "swiper/css/pagination"
 
 // import required modules
-import { Pagination } from "swiper"
+import { Pagination, Autoplay } from "swiper"
 
 import './services.css'
 
@@ -30,6 +30,11 @@ const Services = () => {
                 pagination={{
                     clickable: true,
                 }}
+                autoplay={{
+                    delay: 3000, // Adjust the delay as needed (in milliseconds)
+                    disableOnInteraction: false, // Ensures autoplay continues after user interaction
+                }}
+                loop={true} // Enables infinite looping
                 breakpoints={{
                     540: {
                         slidesPerView: 1,
@@ -39,14 +44,11 @@ const Services = () => {
                         slidesPerView: 2,
                         spaceBetween: 30,
                     },
-                    1200: {
-                        slidesPerView: 3,
-                        spaceBetween: 40,
-                    },
                 }}
-                modules={[Pagination]}
+                modules={[Pagination, Autoplay]}
                 className="services__container container mySwiper"
             >
+
                 {
                     services.map(({ name, title, description }, index) => {
                         return (

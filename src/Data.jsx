@@ -16,6 +16,7 @@ import project16 from "./assets/baby-formula.png"
 import project17 from "./assets/machineMinds.png"
 import project18 from "./assets/conference.png"
 import project19 from "./assets/stock.png"
+import project20 from "./assets/PEANUTS.png"
 
 export const projectItems = [
   {
@@ -77,11 +78,11 @@ export const services = [
     id: 4,
     name: " 3D Modeling ",
     title: " Blender ",
-    description: "using Blender for 3D modeling ",
+    description: "using Blender for 3D modeling, Use them in my websites through THREE JS ",
   },
   {
     id: 5,
-    name: " Website Designer ",
+    name: " UI/UX Developer ",
     title: " Figma | Spline | Framer ",
     description:
       "with the help of Figma, spline, framer and many more softwares i create some amazing projects.",
@@ -113,7 +114,7 @@ export const skills = [
   {
     id: 4,
     name: "Python",
-    percentage: 45,
+    percentage: 85,
     description: "learned python at an intermediate level",
   },
 
@@ -137,7 +138,37 @@ export const skills = [
     percentage: 70,
     description: "Using Next Js for creating E-Commerce Website Currently",
   },
-];
+  {
+    id: 8,
+    name: "TypeScript",
+    percentage: 85,
+    description: "Using Next Js for creating E-Commerce Website Currently",
+  },
+  {
+    id: 9,
+    name: "Tailwind",
+    percentage: 96,
+    description: "Using Next Js for creating E-Commerce Website Currently",
+  },
+  {
+    id: 10,
+    name: "Django",
+    percentage: 60,
+    description: "Using Next Js for creating E-Commerce Website Currently",
+  },
+  {
+    id: 11,
+    name: "Flask",
+    percentage: 50,
+    description: "Using Next Js for creating E-Commerce Website Currently",
+  },
+  {
+    id: 12,
+    name: "Canva",
+    percentage: 90,
+    description: "Using Next Js for creating E-Commerce Website Currently",
+  },
+]
 
 export const projects = [
   {
@@ -149,6 +180,16 @@ export const projects = [
     timeline:"AUG 2024",
     links: "https://github.com/keshxvdayal/machine-minds",
     github:"https://github.com/keshxvdayal/machine-minds"
+  },
+  {
+    id: 1,
+    img: project20,
+    category: "Web Development",
+    title: "PEANUTS",
+    description: "Traditional coding platforms fail to provide an engaging and interactive learning experience, resulting in disengagement, slow skill development, and limited opportunities for connection and career growth among developers. How can a platform be designed to offer a comprehensive, community-driven, and competitive environment that fosters immersive learning, skill mastery, and career advancement for developers of all levels? ",
+    timeline:"AUG 2024",
+    links: "https://peanuts-93k9.onrender.com/",
+    github:"https://github.com/keshxvdayal/PEANUTS"
   },
   {
     id: 1,
@@ -201,7 +242,7 @@ export const projects = [
 },
 {
   id: 20,
-  img: project13,
+  img: project19,
   category: "Web Development",
   title: "Stock Management Tool",
   description: "A Stock Management Tool",
@@ -220,21 +261,21 @@ export const projects = [
   github:"https://github.com/keshxvdayal/CONFERENCE"
 },
 
-{
-  id: 20,
-  img: project19,
-  category: "Web Development",
-  title: "Conference App",
-  description: "A Conference Application build using typescript and tailwind where you can Create Meetings, Join Meetings, Invite your Friends, Record Your Meetings and Schedule Your Meeting",
-  timeline:"JUN 2024 - AUG 2024",
-  links: "https://conference-ten-black.vercel.app/",
-  github:"https://github.com/keshxvdayal/CONFERENCE"
-},
+// {
+//   id: 20,
+//   img: project19,
+//   category: "Web Development",
+//   title: "Conference App",
+//   description: "A Conference Application build using typescript and tailwind where you can Create Meetings, Join Meetings, Invite your Friends, Record Your Meetings and Schedule Your Meeting",
+//   timeline:"JUN 2024 - AUG 2024",
+//   links: "https://conference-ten-black.vercel.app/",
+//   github:"https://github.com/keshxvdayal/CONFERENCE"
+// },
   {
     id: 12,
     img: project14,
     category: "Web Development",
-    title: "Admin Dashboard",
+    title: "Allumni Association",
     description: "Created Allumni Association Webiste for my college",
     timeline:"JUN 2024 - AUG 2024",
     links: "https://aasc-client-dev.vercel.app/",
